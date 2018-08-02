@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7229CEDA2113563600B2A3EE /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7229CED92113563600B2A3EE /* PersonCell.swift */; };
+		7229CEDC21135D3400B2A3EE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7229CEDB21135D3400B2A3EE /* Person.swift */; };
 		72945E202113500100EC8C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72945E1F2113500100EC8C4E /* AppDelegate.swift */; };
 		72945E222113500100EC8C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72945E212113500100EC8C4E /* ViewController.swift */; };
 		72945E252113500100EC8C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72945E232113500100EC8C4E /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7229CED92113563600B2A3EE /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		7229CEDB21135D3400B2A3EE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		72945E1C2113500100EC8C4E /* Names To Faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Names To Faces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72945E1F2113500100EC8C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72945E212113500100EC8C4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				72945E1F2113500100EC8C4E /* AppDelegate.swift */,
 				72945E212113500100EC8C4E /* ViewController.swift */,
 				72945E232113500100EC8C4E /* Main.storyboard */,
+				7229CED92113563600B2A3EE /* PersonCell.swift */,
+				7229CEDB21135D3400B2A3EE /* Person.swift */,
 				72945E262113500200EC8C4E /* Assets.xcassets */,
 				72945E282113500200EC8C4E /* LaunchScreen.storyboard */,
 				72945E2B2113500200EC8C4E /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7229CEDA2113563600B2A3EE /* PersonCell.swift in Sources */,
 				72945E222113500100EC8C4E /* ViewController.swift in Sources */,
+				7229CEDC21135D3400B2A3EE /* Person.swift in Sources */,
 				72945E202113500100EC8C4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9YH3LZQ69V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Names To Faces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9YH3LZQ69V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Names To Faces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
